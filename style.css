@@ -1,6 +1,7 @@
 body {
     background-image: url(https://images.unsplash.com/photo-1563705343138-780c54f8b7ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1408&q=80);
     padding: 10px;
+    background-attachment: fixed;    
   }
 
   h1{
@@ -20,6 +21,7 @@ body {
   
   .country-container {
     display: flex;
+    margin-left: 30px;
   }
   
   .country {
