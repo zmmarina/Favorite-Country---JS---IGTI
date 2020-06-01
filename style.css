@@ -1,0 +1,42 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1563705343138-780c54f8b7ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1408&q=80);
+    padding: 10px;
+  }
+
+  h1{
+      text-align: center;
+      color: rgb(7, 7, 17);
+      text-shadow: cornsilk;
+  }
+  
+  img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 10px;  
+    margin-top: 10px;
+    border-radius: 50%;
+  }
+  
+  .country-container {
+    display: flex;
+  }
+  
+  .country {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .add {
+    border-radius: 50%;
+    background-color:seagreen;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .country-list {
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
